@@ -50,7 +50,7 @@ const AdminClubIndex = () => {
               <div className="flex items-center space-x-2">
                 <Button size="sm" onClick={() => navigate(`/dashboard/admin/club/${c.id}`)} className="flex items-center space-x-2">
                   <Eye className="w-4 h-4" />
-                  <span>View</span>
+                  <span>Views</span>
                 </Button>
               </div>
             </li>
