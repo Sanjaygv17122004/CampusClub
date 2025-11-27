@@ -14,6 +14,7 @@ export default defineConfig(({ mode }) => ({
         changeOrigin: true,
         secure: false,
       },
+      
       // Serve uploaded files from backend uploads folder
       '/uploads': {
         target: 'http://localhost:4000',

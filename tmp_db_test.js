@@ -11,6 +11,7 @@
   } catch (e) {
     console.error('DB_ERR', e && e.message);
     console.error(e && e.stack);
+    
     process.exitCode = 1;
   }
 })();
